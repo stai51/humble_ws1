@@ -1,0 +1,1 @@
+Invoking command in '/home/robotdeveloper02/humble_ws/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/humble_ws/build/isaacsim -- -j16 -l16

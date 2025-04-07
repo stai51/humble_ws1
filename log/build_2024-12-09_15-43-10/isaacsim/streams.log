@@ -1,0 +1,26 @@
+[0.530s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim -- -j16 -l16
+[0.975s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim -- -j16 -l16
+[1.009s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim
+[1.017s] -- Install configuration: ""
+[1.018s] -- Execute custom install script
+[1.018s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/scripts/open_isaacsim_stage.py
+[1.018s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/scripts/run_isaacsim.py
+[1.022s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/launch/run_isaacsim.launch.py
+[1.022s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib/isaacsim/run_isaacsim.py
+[1.022s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib/isaacsim/open_isaacsim_stage.py
+[1.022s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/ament_index/resource_index/package_run_dependencies/isaacsim
+[1.023s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/ament_index/resource_index/parent_prefix_path/isaacsim
+[1.023s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/environment/ament_prefix_path.sh
+[1.023s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/environment/ament_prefix_path.dsv
+[1.023s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/environment/path.sh
+[1.023s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/environment/path.dsv
+[1.023s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/local_setup.bash
+[1.024s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/local_setup.sh
+[1.024s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/local_setup.zsh
+[1.024s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/local_setup.dsv
+[1.024s] -- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.dsv
+[1.032s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/ament_index/resource_index/packages/isaacsim
+[1.032s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/cmake/isaacsimConfig.cmake
+[1.032s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/cmake/isaacsimConfig-version.cmake
+[1.032s] -- Up-to-date symlink: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.xml
+[1.063s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim

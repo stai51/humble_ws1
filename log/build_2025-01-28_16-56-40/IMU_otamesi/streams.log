@@ -1,0 +1,49 @@
+[0.015s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/IMU_otamesi': AMENT_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/IMU_otamesi -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target IMU_otamesi[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/IMU_otamesi.dir/src/IMU.cpp.o[0m
+[2.880s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles(int)[m[K’:
+[2.880s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:169:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.880s]   169 |         if ([01;35m[Kgrid_size * grid_size * grid_size < particle_count_[m[K) {
+[2.880s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.880s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:186:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.880s]   186 |             for (int i = 0; i < grid_size && [01;35m[Kindex < particle_count_[m[K; ++i) {
+[2.880s]       |                                              [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.880s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:187:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.880s]   187 |                 for (int j = 0; j < grid_size && [01;35m[Kindex < particle_count_[m[K; ++j) {
+[2.880s]       |                                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.880s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:188:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.880s]   188 |                     for (int k = 0; k < grid_size && [01;35m[Kindex < particle_count_[m[K; ++k) {
+[2.880s]       |                                                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.895s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::calculate_distance()[m[K’:
+[2.896s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:537:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.896s]   537 |                 [01;31m[Kx[m[K.segment<3>(0) = Eigen::Vector3d(0.0, 0.0, 4.75);  // 初期位置
+[2.896s]       |                 [01;31m[K^[m[K
+[2.902s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:542:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_idx[m[K’ was not declared in this scope
+[2.902s]   542 |             estimate_position([01;31m[Kanchor_idx[m[K);
+[2.902s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[2.916s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::estimate_position(size_t)[m[K’:
+[2.917s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:550:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.917s]   550 |         std::vector<Eigen::Vector3d> dummy_pxyz(1, [01;31m[Kx[m[K.segment<3>(0));
+[2.917s]       |                                                    [01;31m[K^[m[K
+[2.930s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:556:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[2.930s]   556 |         [01;31m[Kp[m[K.position.setX(corrected_position.x());
+[2.930s]       |         [01;31m[K^[m[K
+[2.935s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:563:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kestimated_position[m[K’ was not declared in this scope; did you mean ‘[01m[Kestimate_position[m[K’?
+[2.935s]   563 |         estimated_pose_msg.pose.position.x = [01;31m[Kestimated_position[m[K.x();
+[2.935s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.935s]       |                                              [32m[Kestimate_position[m[K
+[2.936s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:596:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.936s]   596 |         if ([01;35m[Kmarker_history_.size() > max_markers_[m[K) {
+[2.936s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.038s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_robot_marker()[m[K’:
+[3.038s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:693:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.038s]   693 |         if ([01;35m[Krobot_marker_history_.size() > robot_max_markers_[m[K) {
+[3.038s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.038s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_anchor4_marker()[m[K’:
+[3.038s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:730:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.038s]   730 |         if ([01;35m[Kanchor4_marker_history_.size() > anchor4_max_markers_[m[K) {
+[3.038s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.094s] gmake[2]: *** [CMakeFiles/IMU_otamesi.dir/build.make:76: CMakeFiles/IMU_otamesi.dir/src/IMU.cpp.o] Error 1
+[7.094s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_otamesi.dir/all] Error 2
+[7.094s] gmake: *** [Makefile:146: all] Error 2
+[7.096s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/IMU_otamesi' returned '2': AMENT_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/IMU_otamesi -- -j16 -l16

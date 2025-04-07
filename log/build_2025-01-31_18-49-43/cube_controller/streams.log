@@ -1,0 +1,39 @@
+[1.824s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cube_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log --single-version-externally-managed install_data
+[2.101s] Traceback (most recent call last):
+[2.101s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2866, in get_entry_map
+[2.102s]     ep_map = self._ep_map
+[2.102s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2828, in __getattr__
+[2.102s]     raise AttributeError(attr)
+[2.102s] AttributeError: _ep_map. Did you mean: '_dep_map'?
+[2.102s] 
+[2.102s] During handling of the above exception, another exception occurred:
+[2.103s] 
+[2.103s] Traceback (most recent call last):
+[2.103s]   File "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller/setup.py", line 5, in <module>
+[2.103s]     setup(
+[2.103s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 152, in setup
+[2.103s]     _install_setup_requires(attrs)
+[2.103s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+[2.103s]     dist = MinimalDistribution(attrs)
+[2.103s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 134, in __init__
+[2.103s]     distutils.core.Distribution.__init__(self, filtered)
+[2.104s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 457, in __init__
+[2.104s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[2.104s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 646, in <genexpr>
+[2.104s]     for entry in dist.get_entry_map(group).values()
+[2.104s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2868, in get_entry_map
+[2.104s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[2.104s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2549, in parse_map
+[2.105s]     for group, lines in data:
+[2.105s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3205, in split_sections
+[2.105s]     for line in yield_lines(s):
+[2.105s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+[2.105s]     for line in self.get_metadata_lines(name):
+[2.105s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+[2.105s]     return yield_lines(self.get_metadata(name))
+[2.105s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1412, in get_metadata
+[2.106s]     value = self._get(path)
+[2.106s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1616, in _get
+[2.106s]     with open(path, 'rb') as stream:
+[2.106s] FileNotFoundError: [Errno 2] No such file or directory: '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller-0.0.0-py3.10.egg-info/entry_points.txt'
+[2.128s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller' returned '1': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cube_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.021s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation
+[0.277s] -- The C compiler identification is GNU 12.3.0
+[0.409s] -- The CXX compiler identification is GNU 11.4.0
+[0.418s] -- Detecting C compiler ABI info
+[0.472s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.477s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.850s] -- Found Python3: /home/robotdeveloper02/anaconda3/bin/python3 (found version "3.11.7") found components: Interpreter 
+[0.949s] Traceback (most recent call last):
+[0.949s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.950s]     from catkin_pkg.package import parse_package_string
+[0.950s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.953s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.953s]   execute_process(/home/robotdeveloper02/anaconda3/bin/python3
+[0.953s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.953s]   /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/carter_navigation/package.xml
+[0.953s]   /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation/ament_cmake_core/package.cmake)
+[0.953s]   returned error code 1
+[0.953s] Call Stack (most recent call first):
+[0.954s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.954s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.954s]   CMakeLists.txt:13 (ament_package)
+[0.954s] 
+[0.954s] [0m
+[0.954s] -- Configuring incomplete, errors occurred!
+[0.954s] See also "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation/CMakeFiles/CMakeOutput.log".
+[0.956s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation

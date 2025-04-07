@@ -1,0 +1,25 @@
+[1.583s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/error_plotter': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/error_plotter build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/install.log --single-version-externally-managed install_data
+[1.844s] running egg_info
+[1.845s] creating ../../build/error_plotter/error_plotter.egg-info
+[1.845s] writing ../../build/error_plotter/error_plotter.egg-info/PKG-INFO
+[1.845s] writing dependency_links to ../../build/error_plotter/error_plotter.egg-info/dependency_links.txt
+[1.845s] writing entry points to ../../build/error_plotter/error_plotter.egg-info/entry_points.txt
+[1.845s] writing requirements to ../../build/error_plotter/error_plotter.egg-info/requires.txt
+[1.845s] writing top-level names to ../../build/error_plotter/error_plotter.egg-info/top_level.txt
+[1.846s] writing manifest file '../../build/error_plotter/error_plotter.egg-info/SOURCES.txt'
+[1.846s] reading manifest file '../../build/error_plotter/error_plotter.egg-info/SOURCES.txt'
+[1.847s] writing manifest file '../../build/error_plotter/error_plotter.egg-info/SOURCES.txt'
+[1.847s] running build
+[1.847s] running install
+[1.847s] running install_data
+[1.848s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/share/ament_index
+[1.848s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/share/ament_index/resource_index
+[1.848s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/share/ament_index/resource_index/packages
+[1.848s] copying resource/error_plotter -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/share/ament_index/resource_index/packages
+[1.848s] copying package.xml -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/share/error_plotter
+[1.848s] running install_egg_info
+[1.851s] Copying ../../build/error_plotter/error_plotter.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/lib/python3.10/site-packages/error_plotter-0.0.0-py3.10.egg-info
+[1.852s] running install_scripts
+[1.873s] Installing error_plotter script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/lib/error_plotter
+[1.873s] writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/install.log'
+[1.904s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/error_plotter' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/error_plotter build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_plotter/install.log --single-version-externally-managed install_data

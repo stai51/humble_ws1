@@ -1,0 +1,166 @@
+[0.384s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.427s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[0.557s] In file included from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:4[m[K:
+[0.557s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.557s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.557s]       |  [01;35m[K^~~~~~~[m[K
+[2.144s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:50:17:[m[K [01;31m[Kerror: [m[K‘[01m[KParticle[m[K’ was not declared in this scope
+[2.144s]    50 |     std::vector<[01;31m[KParticle[m[K> particles_;
+[2.144s]       |                 [01;31m[K^~~~~~~~[m[K
+[2.144s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:50:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.144s]    50 |     std::vector<Particle[01;31m[K>[m[K particles_;
+[2.144s]       |                         [01;31m[K^[m[K
+[2.144s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:50:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.152s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles()[m[K’:
+[2.152s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:62:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresize[m[K’ in ‘[01m[K((calc*)this)->calc::particles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.152s]    62 |         particles_.[01;31m[Kresize[m[K(particle_count_);
+[2.152s]       |                    [01;31m[K^~~~~~[m[K
+[2.153s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:63:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+[2.153s]    63 |         for (auto& p : [01;31m[Kparticles_[m[K) {
+[2.153s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[2.153s]       |                        [32m[Kstd::begin[m[K
+[2.153s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.153s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.153s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.153s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.153s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.153s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+[2.153s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[2.153s]       |                                     [01;36m[K^~~~~[m[K
+[2.153s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:63:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+[2.153s]    63 |         for (auto& p : [01;31m[Kparticles_[m[K) {
+[2.153s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[2.153s]       |                        [32m[Kstd::end[m[K
+[2.153s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.153s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.153s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.153s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.153s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.153s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+[2.153s]   110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[2.153s]       |                                     [01;36m[K^~~[m[K
+[2.164s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::calculate_distance()[m[K’:
+[2.164s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:136:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_[m[K’ was not declared in this scope; did you mean ‘[01m[Kreceived_1_[m[K’?
+[2.164s]   136 |         if (std::all_of(std::begin([01;31m[Kreceived_[m[K), std::end(received_), [](bool r) { return r; })) {
+[2.164s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[2.164s]       |                                    [32m[Kreceived_1_[m[K
+[2.164s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:137:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+[2.164s]   137 |             for (auto &p : [01;31m[Kparticles_[m[K) {
+[2.164s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[2.164s]       |                            [32m[Kstd::begin[m[K
+[2.164s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.164s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.164s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.164s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.164s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.164s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.164s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+[2.164s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[2.165s]       |                                     [01;36m[K^~~~~[m[K
+[2.165s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:137:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+[2.165s]   137 |             for (auto &p : [01;31m[Kparticles_[m[K) {
+[2.165s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[2.165s]       |                            [32m[Kstd::end[m[K
+[2.165s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.165s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.165s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.165s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.165s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.165s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+[2.165s]   110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[2.165s]       |                                     [01;36m[K^~~[m[K
+[2.169s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:141:63:[m[K [01;31m[Kerror: [m[K‘[01m[KRobot_position[m[K’ was not declared in this scope; did you mean ‘[01m[KAnchor_positions[m[K’?
+[2.169s]   141 |                   double actual_distance = tf2::tf2Distance([01;31m[KRobot_position[m[K, Anchor_positions[i]);
+[2.169s]       |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.169s]       |                                                             [32m[KAnchor_positions[m[K
+[2.169s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::normalize_weights()[m[K’:
+[2.169s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:155:57:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K((calc*)this)->calc::particles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.169s]   155 |         double sum_weights = std::accumulate(particles_.[01;31m[Kbegin[m[K(), particles_.end(), 0.0,
+[2.169s]       |                                                         [01;31m[K^~~~~[m[K
+[2.169s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:155:77:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((calc*)this)->calc::particles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.169s]   155 | um_weights = std::accumulate(particles_.begin(), particles_.[01;31m[Kend[m[K(), 0.0,
+[2.169s]       |                                                             [01;31m[K^~~[m[K
+[2.169s] 
+[2.169s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:157:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+[2.169s]   157 |         for (auto& p : [01;31m[Kparticles_[m[K) {
+[2.170s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[2.170s]       |                        [32m[Kstd::begin[m[K
+[2.170s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.170s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.170s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.170s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.170s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.170s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+[2.170s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[2.170s]       |                                     [01;36m[K^~~~~[m[K
+[2.170s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:157:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+[2.170s]   157 |         for (auto& p : [01;31m[Kparticles_[m[K) {
+[2.170s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[2.170s]       |                        [32m[Kstd::end[m[K
+[2.170s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.170s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.170s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.170s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.170s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.170s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+[2.170s]   110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[2.170s]       |                                     [01;36m[K^~~[m[K
+[2.170s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::estimate_position()[m[K’:
+[2.170s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:164:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+[2.170s]   164 |         for (const auto& p : [01;31m[Kparticles_[m[K) {
+[2.170s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[2.171s]       |                              [32m[Kstd::begin[m[K
+[2.171s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.171s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.171s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+[2.171s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[2.171s]       |                                     [01;36m[K^~~~~[m[K
+[2.171s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:164:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+[2.171s]   164 |         for (const auto& p : [01;31m[Kparticles_[m[K) {
+[2.171s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[2.171s]       |                              [32m[Kstd::end[m[K
+[2.171s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.171s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.171s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+[2.171s]   110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[2.171s]       |                                     [01;36m[K^~~[m[K
+[2.172s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::resample_particles()[m[K’:
+[2.172s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:179:59:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K((calc*)this)->calc::particles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.172s]   179 |         double max_weight = (*std::max_element(particles_.[01;31m[Kbegin[m[K(), particles_.end(),
+[2.172s]       |                                                           [01;31m[K^~~~~[m[K
+[2.172s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:179:79:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((calc*)this)->calc::particles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.172s]   179 | e max_weight = (*std::max_element(particles_.begin(), particles_.[01;31m[Kend[m[K(),
+[2.172s]       |                                                                  [01;31m[K^~~[m[K
+[2.172s] 
+[2.173s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:186:37:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.173s]   186 |             while (beta > particles_[01;31m[K[[m[Kindex].weight) {
+[2.173s]       |                                     [01;31m[K^[m[K
+[2.173s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:187:35:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.173s]   187 |                 beta -= particles_[01;31m[K[[m[Kindex].weight;
+[2.173s]       |                                   [01;31m[K^[m[K
+[2.173s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:190:47:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[2.173s]   190 |             new_particles.push_back(particles_[01;31m[K[[m[Kindex]);
+[2.173s]       |                                               [01;31m[K^[m[K
+[2.173s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:193:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<calc::Particle>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+[2.173s]   193 |         particles_ = [01;31m[Knew_particles[m[K;
+[2.173s]       |                      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.173s]       |                      [01;31m[K|[m[K
+[2.173s]       |                      [01;31m[Kstd::vector<calc::Particle>[m[K
+[4.111s] gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+[4.112s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+[4.112s] gmake: *** [Makefile:146: all] Error 2
+[4.113s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16

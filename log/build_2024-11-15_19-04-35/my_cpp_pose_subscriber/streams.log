@@ -1,0 +1,47 @@
+[0.420s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.461s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[0.618s] In file included from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3[m[K:
+[0.618s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.618s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.618s]       |  [01;35m[K^~~~~~~[m[K
+[2.464s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:103:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid calc::topic5_callback(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’ cannot be overloaded with ‘[01m[Kvoid calc::topic5_callback(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’
+[2.464s]   103 |     void [01;31m[Ktopic5_callback[m[K(const std::shared_ptr<geometry_msgs::msg::PoseStamped>msg)
+[2.464s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.464s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:67:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid calc::topic5_callback(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’
+[2.464s]    67 |     void [01;36m[Ktopic5_callback[m[K(const std::shared_ptr<geometry_msgs::msg::PoseStamped>msg)
+[2.464s]       |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::topic5_callback(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’:
+[2.503s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcameara[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamera[m[K’?
+[2.503s]    70 |         [01;31m[Kcameara[m[K[0]=msg->pose.position.x;
+[2.503s]       |         [01;31m[K^~~~~~~[m[K
+[2.503s]       |         [32m[Kcamera[m[K
+[2.507s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::topic5_callback(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’:
+[2.507s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:106:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcameara[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamera[m[K’?
+[2.507s]   106 |         [01;31m[Kcameara[m[K[0]=msg->pose.position.x;
+[2.507s]       |         [01;31m[K^~~~~~~[m[K
+[2.507s]       |         [32m[Kcamera[m[K
+[2.507s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::henkan()[m[K’:
+[2.507s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:117:13:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3[m[K’ was not declared in this scope
+[2.507s]   117 |             [01;31m[KVector3[m[K Transform.TransformPoint(Vector3 Jetbot_world);
+[2.507s]       |             [01;31m[K^~~~~~~[m[K
+[2.507s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:117:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.507s] In file included from [01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:21[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:56[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+[2.507s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3[m[K:
+[2.507s] [01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h:38:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2::Vector3[m[K’
+[2.507s]    38 | ATTRIBUTE_ALIGNED16(class) [01;36m[KVector3[m[K
+[2.507s]       |                            [01;36m[K^~~~~~~[m[K
+[2.507s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:20[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp:7[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:40[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+[2.507s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3[m[K:
+[2.508s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Vector3[m[K’
+[2.508s]   150 | using [01;36m[KVector3[m[K =
+[2.508s]       |       [01;36m[K^~~~~~~[m[K
+[4.153s] gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+[4.153s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+[4.153s] gmake: *** [Makefile:146: all] Error 2
+[4.155s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16

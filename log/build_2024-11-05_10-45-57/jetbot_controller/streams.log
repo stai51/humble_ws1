@@ -1,0 +1,31 @@
+[1.301s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetbot_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log --single-version-externally-managed install_data
+[1.529s] running egg_info
+[1.530s] creating ../../build/jetbot_controller/jetbot_controller.egg-info
+[1.530s] writing ../../build/jetbot_controller/jetbot_controller.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ../../build/jetbot_controller/jetbot_controller.egg-info/dependency_links.txt
+[1.530s] writing entry points to ../../build/jetbot_controller/jetbot_controller.egg-info/entry_points.txt
+[1.530s] writing requirements to ../../build/jetbot_controller/jetbot_controller.egg-info/requires.txt
+[1.531s] writing top-level names to ../../build/jetbot_controller/jetbot_controller.egg-info/top_level.txt
+[1.531s] writing manifest file '../../build/jetbot_controller/jetbot_controller.egg-info/SOURCES.txt'
+[1.533s] reading manifest file '../../build/jetbot_controller/jetbot_controller.egg-info/SOURCES.txt'
+[1.534s] writing manifest file '../../build/jetbot_controller/jetbot_controller.egg-info/SOURCES.txt'
+[1.534s] running build
+[1.534s] running build_py
+[1.534s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build
+[1.534s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build/lib
+[1.534s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build/lib/jetbot_controller
+[1.534s] copying jetbot_controller/__init__.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build/lib/jetbot_controller
+[1.535s] copying jetbot_controller/controller.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build/lib/jetbot_controller
+[1.535s] running install
+[1.535s] running install_lib
+[1.536s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller
+[1.536s] copying /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build/lib/jetbot_controller/__init__.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller
+[1.536s] copying /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build/lib/jetbot_controller/controller.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller
+[1.537s] byte-compiling /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller/__init__.py to __init__.cpython-310.pyc
+[1.537s] byte-compiling /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller/controller.py to controller.cpython-310.pyc
+[1.538s] running install_data
+[1.538s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/ament_index
+[1.538s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/ament_index/resource_index
+[1.538s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/ament_index/resource_index/packages
+[1.538s] error: can't copy 'resource/jetbot_controller': doesn't exist or not a regular file
+[1.567s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller' returned '1': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetbot_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log --single-version-externally-managed install_data

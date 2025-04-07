@@ -1,0 +1,5 @@
+WARNING: Package name "IMU_otamesi" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[31mCMake Error at CMakeLists.txt:36 (install):
+  install TARGETS given target "pose_subscriber" which does not exist.
+
+[0m

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/error_subscriber/error_subscriber.egg-info
+writing ../../build/error_subscriber/error_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/error_subscriber/error_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/error_subscriber/error_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/error_subscriber/error_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/error_subscriber/error_subscriber.egg-info/top_level.txt
+writing manifest file '../../build/error_subscriber/error_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/error_subscriber/error_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/error_subscriber/error_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber
+copying error_subscriber/__init__.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber
+copying error_subscriber/error_subscriber.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber
+running install
+running install_lib
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber
+copying /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber/__init__.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber
+copying /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber/error_subscriber.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber
+byte-compiling /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber/error_subscriber.py to error_subscriber.cpython-310.pyc
+running install_data
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index/resource_index
+creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index/resource_index/packages
+copying resource/error_subscriber -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/error_subscriber
+running install_egg_info
+Copying ../../build/error_subscriber/error_subscriber.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing error_subscriber script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/error_subscriber
+writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/install.log'

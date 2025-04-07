@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (-) JobUnselected: {'identifier': 'carter_navigation'}
+[0.000214] (-) JobUnselected: {'identifier': 'custom_message'}
+[0.000227] (-) JobUnselected: {'identifier': 'isaac_ros2_messages'}
+[0.000238] (-) JobUnselected: {'identifier': 'isaac_ros_navigation_goal'}
+[0.000246] (-) JobUnselected: {'identifier': 'isaac_tutorials'}
+[0.000255] (-) JobUnselected: {'identifier': 'isaacsim'}
+[0.000264] (-) JobUnselected: {'identifier': 'my_ros2_package'}
+[0.000274] (my_cpp_pose_subscriber) JobQueued: {'identifier': 'my_cpp_pose_subscriber', 'dependencies': OrderedDict()}
+[0.000470] (my_cpp_pose_subscriber) JobStarted: {'identifier': 'my_cpp_pose_subscriber'}
+[0.005325] (my_cpp_pose_subscriber) JobProgress: {'identifier': 'my_cpp_pose_subscriber', 'progress': 'cmake'}
+[0.005712] (my_cpp_pose_subscriber) JobProgress: {'identifier': 'my_cpp_pose_subscriber', 'progress': 'build'}
+[0.006102] (my_cpp_pose_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber', '--', '-j16', '-l16'], 'cwd': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotdeveloper02'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotdeveloper02'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1823'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ba12124c9b08f3230deed5ce66e7ea23'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotdeveloper02'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotdeveloper02'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robotdeveloper02/anaconda3/condabin:/opt/ros/humble/bin:/home/robotdeveloper02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MagnateXT:@/tmp/.ICE-unix/1823,unix/MagnateXT:/tmp/.ICE-unix/1823'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f468a33_cdd2_4e18_a4d9_52c58050e58f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.432'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robotdeveloper02/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robotdeveloper02/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ba12124c9b08f3230deed5ce66e7ea23'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.022592] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099792] (-) TimerEvent: {}
+[0.104190] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.121887] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.123542] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.127283] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.133136] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.140962] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.161018] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.161795] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199877] (-) TimerEvent: {}
+[0.227083] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.258810] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.269530] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.279150] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.292964] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.294204] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.294286] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.299947] (-) TimerEvent: {}
+[0.381506] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399982] (-) TimerEvent: {}
+[0.428448] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.428573] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.428617] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.428763] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.429303] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.429561] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.430495] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.430599] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.430792] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.431225] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.439308] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[0.440418] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber\n'}
+[0.457831] (my_cpp_pose_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pose_subscriber\x1b[0m\n'}
+[0.469018] (my_cpp_pose_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o\x1b[0m\n'}
+[0.500071] (-) TimerEvent: {}
+[0.600287] (-) TimerEvent: {}
+[0.607567] (my_cpp_pose_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[0.607702] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.607752] (my_cpp_pose_subscriber) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[0.607799] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.700379] (-) TimerEvent: {}
+[0.800607] (-) TimerEvent: {}
+[0.900942] (-) TimerEvent: {}
+[1.001177] (-) TimerEvent: {}
+[1.101447] (-) TimerEvent: {}
+[1.201735] (-) TimerEvent: {}
+[1.302031] (-) TimerEvent: {}
+[1.402299] (-) TimerEvent: {}
+[1.502527] (-) TimerEvent: {}
+[1.602743] (-) TimerEvent: {}
+[1.702952] (-) TimerEvent: {}
+[1.803166] (-) TimerEvent: {}
+[1.903413] (-) TimerEvent: {}
+[2.003765] (-) TimerEvent: {}
+[2.088545] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid calc::topic1_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.088692] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:21:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose1_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.088754] (my_cpp_pose_subscriber) StderrLine: {'line': b'   21 |      \x1b[01;31m\x1b[Kpose1_\x1b[m\x1b[K=*msg;\n'}
+[2.088792] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.094197] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:22:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose1_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.094303] (my_cpp_pose_subscriber) StderrLine: {'line': b'   22 |      \x1b[01;31m\x1b[Kpose1_received_\x1b[m\x1b[K=true;\n'}
+[2.094342] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099634] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:24:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose2_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.099737] (my_cpp_pose_subscriber) StderrLine: {'line': b'   24 |      if(pose1_received_&& \x1b[01;31m\x1b[Kpose2_received_\x1b[m\x1b[K)\n'}
+[2.099776] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099810] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:26:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst calc\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.099856] (my_cpp_pose_subscriber) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[Kcalculate_distance()\x1b[m\x1b[K;\n'}
+[2.099891] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.099924] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:40:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid calc::calculate_distance()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.099960] (my_cpp_pose_subscriber) StderrLine: {'line': b'   40 |     void \x1b[01;36m\x1b[Kcalculate_distance\x1b[m\x1b[K()\n'}
+[2.099993] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.103434] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid calc::topic2_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.103541] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:32:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose2_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.103594] (my_cpp_pose_subscriber) StderrLine: {'line': b'   32 |      \x1b[01;31m\x1b[Kpose2_\x1b[m\x1b[K=*msg;\n'}
+[2.103632] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.103816] (-) TimerEvent: {}
+[2.108799] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:33:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose2_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.108854] (my_cpp_pose_subscriber) StderrLine: {'line': b'   33 |      \x1b[01;31m\x1b[Kpose2_received_\x1b[m\x1b[K=true;\n'}
+[2.108898] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.114480] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose1_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.114594] (my_cpp_pose_subscriber) StderrLine: {'line': b'   35 |      if(\x1b[01;31m\x1b[Kpose1_received_\x1b[m\x1b[K&& pose2_received_)\n'}
+[2.114634] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.114669] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:37:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst calc\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.114717] (my_cpp_pose_subscriber) StderrLine: {'line': b'   37 |         \x1b[01;31m\x1b[Kcalculate_distance()\x1b[m\x1b[K;\n'}
+[2.114751] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.114785] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:40:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid calc::calculate_distance()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.114819] (my_cpp_pose_subscriber) StderrLine: {'line': b'   40 |     void \x1b[01;36m\x1b[Kcalculate_distance\x1b[m\x1b[K()\n'}
+[2.114850] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117752] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid calc::calculate_distance()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.117838] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:42:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.117876] (my_cpp_pose_subscriber) StderrLine: {'line': b'   42 |         tf2::Vector3 a(\x1b[01;31m\x1b[Kpose1\x1b[m\x1b[K.position.x,pose1.position.y,pose1.position.z)\n'}
+[2.117911] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.117949] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:43:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kv1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.117998] (my_cpp_pose_subscriber) StderrLine: {'line': b'   43 |         \x1b[01;31m\x1b[Kv1\x1b[m\x1b[K=(pose2.position.x,pose2.position.y,pose2.position.z)\n'}
+[2.118031] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.118064] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:42:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.118106] (my_cpp_pose_subscriber) StderrLine: {'line': b'   42 |         tf2::Vector3 \x1b[01;35m\x1b[Ka\x1b[m\x1b[K(pose1.position.x,pose1.position.y,pose1.position.z)\n'}
+[2.118138] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.203913] (-) TimerEvent: {}
+[2.304128] (-) TimerEvent: {}
+[2.404372] (-) TimerEvent: {}
+[2.504628] (-) TimerEvent: {}
+[2.604843] (-) TimerEvent: {}
+[2.705069] (-) TimerEvent: {}
+[2.805310] (-) TimerEvent: {}
+[2.905520] (-) TimerEvent: {}
+[3.005729] (-) TimerEvent: {}
+[3.105959] (-) TimerEvent: {}
+[3.206203] (-) TimerEvent: {}
+[3.306445] (-) TimerEvent: {}
+[3.406695] (-) TimerEvent: {}
+[3.506927] (-) TimerEvent: {}
+[3.607142] (-) TimerEvent: {}
+[3.677945] (my_cpp_pose_subscriber) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1\n'}
+[3.678086] (my_cpp_pose_subscriber) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2\n'}
+[3.678198] (my_cpp_pose_subscriber) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.679696] (my_cpp_pose_subscriber) CommandEnded: {'returncode': 2}
+[3.701326] (my_cpp_pose_subscriber) JobEnded: {'identifier': 'my_cpp_pose_subscriber', 'rc': 2}
+[3.707203] (-) TimerEvent: {}
+[3.711721] (-) EventReactorShutdown: {}

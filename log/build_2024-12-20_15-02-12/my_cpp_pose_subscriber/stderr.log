@@ -1,0 +1,556 @@
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:117:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_idx[m[K’ was not declared in this scope
+  117 |     int is_resampling_started[[01;31m[Kanchor_idx[m[K];
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:570:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  570 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles(int)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:135:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  135 |         if ([01;35m[Kgrid_size * grid_size * grid_size < particle_count_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:152:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  152 |             for (int i = 0; i < grid_size && [01;35m[Kindex < particle_count_[m[K; ++i) {
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:153:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  153 |                 for (int j = 0; j < grid_size && [01;35m[Kindex < particle_count_[m[K; ++j) {
+      |                                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:154:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  154 |                     for (int k = 0; k < grid_size && [01;35m[Kindex < particle_count_[m[K; ++k) {
+      |                                                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::topic1_callback(std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:229:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_robot_marker[m[K’ was not declared in this scope
+  229 |         [01;31m[Kpublish_robot_marker[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::calculate_distance()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:502:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcheck_estimation_and_movement[m[K’ was not declared in this scope
+  502 |                 [01;31m[Kcheck_estimation_and_movement[m[K(anchor_idx);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:505:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_idx[m[K’ was not declared in this scope
+  505 |                 if (available_anchor[[01;31m[Kanchor_idx[m[K] == 1) {
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:508:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_resampling_started[m[K’ was not declared in this scope
+  508 |                 }else if ([01;31m[Kis_resampling_started[m[K[anchor_idx] == 1) {
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:517:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_idx[m[K’ was not declared in this scope
+  517 |                 RCLCPP_INFO(this->get_logger(),"Anchor %zu: sigma%.2f:s%d", [01;31m[Kanchor_idx[m[K,sigma,is_resampling_started);
+      |                                                                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:517:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_resampling_started[m[K’ was not declared in this scope
+  517 |                 RCLCPP_INFO(this->get_logger(),"Anchor %zu: sigma%.2f:s%d", anchor_idx,sigma,[01;31m[Kis_resampling_started[m[K);
+      |                                                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:518:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_idx[m[K’ was not declared in this scope
+  518 |                 for (auto &p : particle_groups_[[01;31m[Kanchor_idx[m[K]) {
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:520:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_resampling_started[m[K’ was not declared in this scope
+  520 |                     if ([01;31m[Kis_resampling_started[m[K[anchor_idx]==1) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:555:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_idx[m[K’ was not declared in this scope
+  555 |                 normalize_weights([01;31m[Kanchor_idx[m[K);
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:555:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knormalize_weights[m[K’ was not declared in this scope
+  555 |                 [01;31m[Knormalize_weights[m[K(anchor_idx);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:556:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kestimate_position[m[K’ was not declared in this scope
+  556 |                 [01;31m[Kestimate_position[m[K(anchor_idx);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:563:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_resampling_started[m[K’ was not declared in this scope
+  563 |                     [01;31m[Kis_resampling_started[m[K[anchor_idx] = 1; // リサンプリング開始フラグを立てる
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:564:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kresample_particles[m[K’ was not declared in this scope
+  564 |                     [01;31m[Kresample_particles[m[K(anchor_idx);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:566:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_particle_markers[m[K’ was not declared in this scope
+  566 |                 [01;31m[Kpublish_particle_markers[m[K(anchor_idx);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid normalize_weights(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:573:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_groups_[m[K’ was not declared in this scope
+  573 |         double sum_weights = std::accumulate([01;31m[Kparticle_groups_[m[K[anchor_idx].begin(), particle_groups_[anchor_idx].end(), 0.0,
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:574:67:[m[K [01;31m[Kerror: [m[K‘[01m[KParticle[m[K’ does not name a type
+  574 |                                              [](double sum, const [01;31m[KParticle[m[K& p) { return sum + p.weight; });
+      |                                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In lambda function:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:574:107:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  574 |                                              [](double sum, const Particle& p) { return sum + p.weight; })[01;31m[K;[m[K
+      |                                                                                                           [01;31m[K^[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:574:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  574 |                                              []([01;35m[Kdouble sum[m[K, const Particle& p) { return sum + p.weight; });
+      |                                                 [01;35m[K~~~~~~~^~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid normalize_weights(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:574:107:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  574 |                                              [](double sum, const Particle& p) { return sum + p.weight; })[01;31m[K;[m[K
+      |                                                                                                           [01;31m[K^[m[K
+      |                                                                                                           [32m[K)[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:573:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  573 |         double sum_weights = std::accumulate[01;36m[K([m[Kparticle_groups_[anchor_idx].begin(), particle_groups_[anchor_idx].end(), 0.0,
+      |                                             [01;36m[K^[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:581:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_count_[m[K’ was not declared in this scope
+  581 |                 p.weight = 1.0 / [01;31m[Kparticle_count_[m[K;
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid estimate_position(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:588:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_groups_[m[K’ was not declared in this scope
+  588 |         if ([01;31m[Kparticle_groups_[m[K[anchor_idx].empty()) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  589 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "No particles available for estimation");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  589 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "No particles available for estimation");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  589 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "No particles available for estimation");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  589 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "No particles available for estimation");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  589 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "No particles available for estimation");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:589:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  589 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "No particles available for estimation");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:595:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_groups_[m[K’ was not declared in this scope
+  595 |             [01;31m[Kparticle_groups_[m[K[anchor_idx].begin(), particle_groups_[anchor_idx].end(),
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:596:22:[m[K [01;31m[Kerror: [m[K‘[01m[KParticle[m[K’ does not name a type
+  596 |             [](const [01;31m[KParticle[m[K& a, const Particle& b) {
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In lambda function:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:598:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  598 |             })[01;31m[K;[m[K
+      |               [01;31m[K^[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid estimate_position(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:598:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  598 |             })[01;31m[K;[m[K
+      |               [01;31m[K^[m[K
+      |               [32m[K)[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:594:52:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  594 |         auto max_weight_particle = std::max_element[01;36m[K([m[K
+      |                                                    [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  605 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Estimated Position (Max Weight) at Anchor %zu: x=%.2f, y=%.2f, z=%.2f, weight=%.6f",
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  605 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Estimated Position (Max Weight) at Anchor %zu: x=%.2f, y=%.2f, z=%.2f, weight=%.6f",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  605 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Estimated Position (Max Weight) at Anchor %zu: x=%.2f, y=%.2f, z=%.2f, weight=%.6f",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  605 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Estimated Position (Max Weight) at Anchor %zu: x=%.2f, y=%.2f, z=%.2f, weight=%.6f",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  605 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Estimated Position (Max Weight) at Anchor %zu: x=%.2f, y=%.2f, z=%.2f, weight=%.6f",
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:605:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  605 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Estimated Position (Max Weight) at Anchor %zu: x=%.2f, y=%.2f, z=%.2f, weight=%.6f",
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:608:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kestimated_positions_history[m[K’ was not declared in this scope; did you mean ‘[01m[Kestimated_position[m[K’?
+  608 |         if ([01;31m[Kestimated_positions_history[m[K[anchor_idx].size() < max_history_size) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kestimated_position[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:608:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_history_size[m[K’ was not declared in this scope
+  608 |         if (estimated_positions_history[anchor_idx].size() < [01;31m[Kmax_history_size[m[K) {
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:648:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_estimation_complete[m[K’ was not declared in this scope
+  648 |                 [01;31m[Kanchor_estimation_complete[m[K[anchor_idx] = 1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:651:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_estimation_complete[m[K’ was not declared in this scope
+  651 |                 [01;31m[Kanchor_estimation_complete[m[K[anchor_idx] = 0;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  656 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  656 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  656 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  656 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  656 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:656:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  656 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:661:38:[m[K [01;31m[Kerror: [m[K‘[01m[KAnchor_positions[m[K’ was not declared in this scope
+  661 |         tf2::Vector3 error_vector =  [01;31m[KAnchor_positions[m[K[anchor_idx]-estimated_position ;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  665 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  665 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  665 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  665 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  665 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:665:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  665 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:671:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_error_publishers_[m[K’ was not declared in this scope
+  671 |         [01;31m[Kanchor_error_publishers_[m[K[anchor_idx]->publish(error_msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:674:43:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  674 |         estimated_pose_msg.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:680:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kestimated_pose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kestimated_pose_msg[m[K’?
+  680 |         [01;31m[Kestimated_pose_publisher_[m[K->publish(estimated_pose_msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kestimated_pose_msg[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:684:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  684 |         marker_msg.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:687:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_id_counter_[m[K’ was not declared in this scope
+  687 |         marker_msg.id = [01;31m[Kmarker_id_counter_[m[K++;  // 一意のIDを設定
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:706:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_publishers_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_s[m[K’?
+  706 |         [01;31m[Kmarker_publishers_[m[K[anchor_idx]->publish(marker_msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_s[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:708:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_history_[m[K’ was not declared in this scope
+  708 |         [01;31m[Kmarker_history_[m[K.push(marker_msg.id);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:709:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_markers_[m[K’ was not declared in this scope
+  709 |         if (marker_history_.size() > [01;31m[Kmax_markers_[m[K) {
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:712:39:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  712 |             delete_msg.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                       [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid resample_particles(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:723:21:[m[K [01;31m[Kerror: [m[K‘[01m[KParticle[m[K’ was not declared in this scope
+  723 |         std::vector<[01;31m[KParticle[m[K> new_particles;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:723:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  723 |         std::vector<Particle[01;31m[K>[m[K new_particles;
+      |                             [01;31m[K^[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:723:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:729:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_groups_[m[K’ was not declared in this scope
+  729 |         double max_weight = (*std::max_element([01;31m[Kparticle_groups_[m[K[anchor_idx].begin(), particle_groups_[anchor_idx].end(),
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:730:57:[m[K [01;31m[Kerror: [m[K‘[01m[KParticle[m[K’ does not name a type
+  730 |                                                [](const [01;31m[KParticle[m[K& a, const Particle& b) { return a.weight < b.weight; }))
+      |                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In lambda function:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:730:121:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K)[m[K’ token
+  730 |                                                [](const Particle& a, const Particle& b) { return a.weight < b.weight; })[01;31m[K)[m[K
+      |                                                                                                                         [01;31m[K^[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid resample_particles(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:731:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  731 |                                 .weight[01;31m[K;[m[K
+      |                                        [01;31m[K^[m[K
+      |                                        [32m[K)[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:729:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  729 |         double max_weight = [01;36m[K([m[K*std::max_element(particle_groups_[anchor_idx].begin(), particle_groups_[anchor_idx].end(),
+      |                             [01;36m[K^[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:734:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_count_[m[K’ was not declared in this scope
+  734 |                 p.weight = 1.0 / [01;31m[Kparticle_count_[m[K; // 重みをリセット
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:736:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_count_[m[K’ was not declared in this scope
+  736 |             max_weight = 1.0 / [01;31m[Kparticle_count_[m[K; // デフォルト値を設定
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:739:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_count_[m[K’ was not declared in this scope
+  739 |         double start = dist(gen) * (max_weight / [01;31m[Kparticle_count_[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:752:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Knew_particles[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  752 |             new_particles.[01;31m[Kpush_back[m[K(particle_groups_[anchor_idx][index]);
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid check_estimation_and_movement(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:760:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_estimation_complete[m[K’ was not declared in this scope
+  760 |         if ([01;31m[Kanchor_estimation_complete[m[K[anchor_idx] == 1 && anchor_move[anchor_idx] == 0) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:760:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kanchor_move[m[K’ was not declared in this scope
+  760 |         if (anchor_estimation_complete[anchor_idx] == 1 && [01;31m[Kanchor_move[m[K[anchor_idx] == 0) {
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  761 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Complete and No Movement!!!!!!", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  761 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Complete and No Movement!!!!!!", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  761 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Complete and No Movement!!!!!!", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  761 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Complete and No Movement!!!!!!", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  761 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Complete and No Movement!!!!!!", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:761:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  761 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Complete and No Movement!!!!!!", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:762:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kavailable_anchor[m[K’ was not declared in this scope
+  762 |             [01;31m[Kavailable_anchor[m[K[anchor_idx]=1;
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  764 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Complete but Moving", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  764 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Complete but Moving", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  764 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Complete but Moving", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  764 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Complete but Moving", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  764 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Complete but Moving", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:764:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  764 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Complete but Moving", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:765:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kavailable_anchor[m[K’ was not declared in this scope
+  765 |             [01;31m[Kavailable_anchor[m[K[anchor_idx]=0;
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  767 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Not Complete", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  767 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Not Complete", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  767 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Not Complete", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  767 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Anchor %zu: Estimation Not Complete", anchor_idx);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  767 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Not Complete", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:767:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  767 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Anchor %zu: Estimation Not Complete", anchor_idx);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:768:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kavailable_anchor[m[K’ was not declared in this scope
+  768 |             [01;31m[Kavailable_anchor[m[K[anchor_idx]=0;
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid publish_robot_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:774:37:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  774 |         robot_marker.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:777:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_marker_id_counter_[m[K’ was not declared in this scope
+  777 |         robot_marker.id = [01;31m[Krobot_marker_id_counter_[m[K++;                   // 固定ID（更新するため）
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:781:40:[m[K [01;31m[Kerror: [m[K‘[01m[KRobot_position[m[K’ was not declared in this scope
+  781 |         robot_marker.pose.position.x = [01;31m[KRobot_position[m[K.x();
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:796:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_marker_publisher_[m[K’ was not declared in this scope
+  796 |         [01;31m[Krobot_marker_publisher_[m[K->publish(robot_marker);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:797:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_marker_history_[m[K’ was not declared in this scope
+  797 |         if ([01;31m[Krobot_marker_history_[m[K.size() > robot_max_markers_) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:797:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_max_markers_[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_marker[m[K’?
+  797 |         if (robot_marker_history_.size() > [01;31m[Krobot_max_markers_[m[K) {
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Krobot_marker[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:800:39:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  800 |             delete_msg.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                       [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In function ‘[01m[Kvoid publish_particle_markers(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:815:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_groups_[m[K’ was not declared in this scope
+  815 |         for (const auto& particle : [01;31m[Kparticle_groups_[m[K[anchor_idx]) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:818:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  818 |             marker.header.stamp = [01;31m[Kthis[m[K->get_clock()->now();
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:839:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticle_marker_publishers_[m[K’ was not declared in this scope
+  839 |         [01;31m[Kparticle_marker_publishers_[m[K[anchor_idx]->publish(marker_array);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K At global scope:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:841:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  841 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
