@@ -1,0 +1,49 @@
+[35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1182:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplacement_p[m[K’ is not a type
+ 1182 |     void publish_displace_marker([01;31m[Kdisplacement_p[m[K) {
+      |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles(int)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:182:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  182 |         if ([01;35m[Kgrid_size * grid_size * grid_size < particle_count_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:199:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  199 |             for (int i = 0; i < grid_size && [01;35m[Kindex < particle_count_[m[K; ++i) {
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:200:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  200 |                 for (int j = 0; j < grid_size && [01;35m[Kindex < particle_count_[m[K; ++j) {
+      |                                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:201:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  201 |                     for (int k = 0; k < grid_size && [01;35m[Kindex < particle_count_[m[K; ++k) {
+      |                                                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::calculate_distance()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:610:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’} to ‘[01m[Kint[m[K’
+  610 |                     publish_displace_marker([01;31m[Kdisplacement_p[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1182:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid calc::publish_displace_marker(int)[m[K’
+ 1182 |     void publish_displace_marker([01;36m[Kdisplacement_p[m[K) {
+      |                                  [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::estimate_position(size_t)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:899:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  899 |         if ([01;35m[Kmarker_history_.size() > max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:843:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprevious_error[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  843 |         double [01;35m[Kprevious_error[m[K = previous_errors_[anchor_idx];
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_robot_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1100:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1100 |         if ([01;35m[Krobot_marker_history_.size() > robot_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_anchor4_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1137:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1137 |         if ([01;35m[Kanchor4_marker_history_.size() > anchor4_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_displace_marker(int)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1207:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1207 |         if ([01;35m[Kdisplace_marker_history_.size() > displace_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

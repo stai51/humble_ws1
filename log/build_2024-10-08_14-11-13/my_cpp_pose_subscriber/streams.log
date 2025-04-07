@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[0.184s] In file included from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3[m[K:
+[0.184s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.184s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.184s]       |  [01;35m[K^~~~~~~[m[K
+[1.665s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.665s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[1.665s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::topic1_callback(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)[m[K’:
+[1.665s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:33:57:[m[K [01;31m[Kerror: [m[K‘[01m[KFall_position[m[K’ was not declared in this scope
+[1.665s]    33 |         RCLCPP_INFO(this->get_logger(),"Falling: %.2f ",[01;31m[KFall_position[m[K.x);
+[1.665s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.235s] gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+[3.235s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+[3.235s] gmake: *** [Makefile:146: all] Error 2
+[3.236s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16

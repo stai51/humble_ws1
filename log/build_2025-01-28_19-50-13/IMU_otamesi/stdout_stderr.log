@@ -1,0 +1,49 @@
+[35m[1mConsolidate compiler generated dependencies of target IMU_otamesi[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/IMU_otamesi.dir/src/IMU.cpp.o[0m
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles(int)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:166:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  166 |         if ([01;35m[Kgrid_size * grid_size * grid_size < particle_count_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:183:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  183 |             for (int i = 0; i < grid_size && [01;35m[Kindex < particle_count_[m[K; ++i) {
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:184:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  184 |                 for (int j = 0; j < grid_size && [01;35m[Kindex < particle_count_[m[K; ++j) {
+      |                                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:185:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  185 |                     for (int k = 0; k < grid_size && [01;35m[Kindex < particle_count_[m[K; ++k) {
+      |                                                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::estimate_position(size_t, double)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:391:16:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble dt[m[K’ shadows a parameter
+  391 |         double [01;31m[Kdt[m[K = imu_dt;
+      |                [01;31m[K^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:389:53:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble dt[m[K’ previously declared here
+  389 |     void estimate_position(size_t anchor_idx,[01;36m[Kdouble dt[m[K) {
+      |                                              [01;36m[K~~~~~~~^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:444:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  444 |         if ([01;35m[Kmarker_history_.size() > max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:389:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  389 |     void estimate_position(size_t anchor_idx,[01;35m[Kdouble dt[m[K) {
+      |                                              [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[KEigen::Vector4d calc::computeQuaternionDerivative(const Vector4d&, const Vector3d&)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:460:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  460 |         double [01;35m[Kwx[m[K = omega(0), wy = omega(1), wz = omega(2);
+      |                [01;35m[K^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:460:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  460 |         double wx = omega(0), [01;35m[Kwy[m[K = omega(1), wz = omega(2);
+      |                               [01;35m[K^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:460:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  460 |         double wx = omega(0), wy = omega(1), [01;35m[Kwz[m[K = omega(2);
+      |                                              [01;35m[K^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_robot_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:542:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  542 |         if ([01;35m[Krobot_marker_history_.size() > robot_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_anchor4_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:579:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  579 |         if ([01;35m[Kanchor4_marker_history_.size() > anchor4_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/IMU_otamesi.dir/build.make:76: CMakeFiles/IMU_otamesi.dir/src/IMU.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_otamesi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

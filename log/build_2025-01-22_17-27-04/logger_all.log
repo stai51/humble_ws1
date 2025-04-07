@@ -1,0 +1,902 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75781422e080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75781439f5e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75781439f5e0>>)
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.218s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/exts/3) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim/4.1/pip3-envs/default) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Kit/Isaac-Sim_App_Selector/4.1/exts/3) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/Jettbot_position) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Jettbot_position' with type 'ros.ament_python' and name 'Jettbot_position'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_cpp) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calc_cpp' with type 'ros.ament_cmake' and name 'my_cpp_pose_subscriber'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/calc_py) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calc_py' with type 'ros.ament_python' and name 'my_ros2_package'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cube_controller) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cube_controller' with type 'ros.ament_python' and name 'cube_controller'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_message' with type 'ros.ament_cmake' and name 'custom_message'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_ros2_messages) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/isaac_ros2_messages' with type 'ros.ament_cmake' and name 'isaac_ros2_messages'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/isaac_tutorials' with type 'ros.ament_cmake' and name 'isaac_tutorials'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaacsim) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/isaacsim' with type 'ros.ament_cmake' and name 'isaacsim'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetbot_controller) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetbot_controller' with type 'ros.ament_python' and name 'jetbot_controller'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/carter_navigation) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation/carter_navigation' with type 'ros.ament_cmake' and name 'carter_navigation'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/isaac_ros_navigation_goal) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation/isaac_ros_navigation_goal' with type 'ros.ament_python' and name 'isaac_ros_navigation_goal'
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'Jettbot_position' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'Jettbot_position' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'carter_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/carter_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'cube_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'cube_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'custom_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros2_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_navigation_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'isaacsim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaacsim', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'jetbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'jetbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'my_ros2_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_py', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pose_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pose_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber', 'merge_install': False, 'path': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message' with build type 'ament_cmake'
+[0.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message'
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position' with build type 'ament_python'
+[0.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('Jettbot_position', 'ament_prefix_path')
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/hook/ament_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/hook/ament_prefix_path.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/carter_navigation' with build type 'ament_cmake'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/carter_navigation'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller' with build type 'ament_python'
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('cube_controller', 'ament_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages' with build type 'ament_cmake'
+[0.333s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros_navigation_goal', 'ament_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/ament_prefix_path.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/ament_prefix_path.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/ament_prefix_path.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_tutorials' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_tutorials'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaacsim' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaacsim'
+[0.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.343s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller' with build type 'ament_python'
+[0.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetbot_controller', 'ament_prefix_path')
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/hook/ament_prefix_path.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/hook/ament_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/hook/ament_prefix_path.sh'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_py' with build type 'ament_python'
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_package', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/hook/ament_prefix_path.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16
+[0.609s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation -- -j16 -l16
+[0.837s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller'
+[0.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages -- -j16 -l16
+[1.086s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal'
+[1.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials -- -j16 -l16
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim -- -j16 -l16
+[1.321s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller'
+[1.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.539s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_py'
+[1.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation -- -j16 -l16
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16
+[1.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim -- -j16 -l16
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials -- -j16 -l16
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages -- -j16 -l16
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials
+[1.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carter_navigation)
+[1.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/carter_navigation
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation' for CMake module files
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation' for CMake config files
+[1.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('carter_navigation', 'cmake_prefix_path')
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.sh'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/bin'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/lib/pkgconfig/carter_navigation.pc'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/lib/python3.10/site-packages'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/bin'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.ps1'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.sh'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.bash'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.zsh'
+[1.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/colcon-core/packages/carter_navigation)
+[1.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaacsim)
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim' for CMake module files
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaacsim
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim' for CMake config files
+[1.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaacsim', 'cmake_prefix_path')
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.dsv'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.sh'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/bin'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib/pkgconfig/isaacsim.pc'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib/python3.10/site-packages'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/bin'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.ps1'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.dsv'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.sh'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.bash'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.zsh'
+[1.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/colcon-core/packages/isaacsim)
+[1.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_tutorials)
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials' for CMake module files
+[1.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials' for CMake config files
+[1.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'cmake_prefix_path')
+[1.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.ps1'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.dsv'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.sh'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/lib'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/bin'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/lib/pkgconfig/isaac_tutorials.pc'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/lib/python3.10/site-packages'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/bin'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.dsv'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.sh'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.bash'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.zsh'
+[1.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/colcon-core/packages/isaac_tutorials)
+[1.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carter_navigation)
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation' for CMake module files
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation' for CMake config files
+[1.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('carter_navigation', 'cmake_prefix_path')
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.sh'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/bin'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/lib/pkgconfig/carter_navigation.pc'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/lib/python3.10/site-packages'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/bin'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.sh'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.bash'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/carter_navigation/package.zsh'
+[1.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation/share/colcon-core/packages/carter_navigation)
+[1.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaacsim)
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim' for CMake module files
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim' for CMake config files
+[1.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaacsim', 'cmake_prefix_path')
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.ps1'
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.dsv'
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.sh'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/bin'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib/pkgconfig/isaacsim.pc'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/lib/python3.10/site-packages'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/bin'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.ps1'
+[1.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.dsv'
+[1.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.sh'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.bash'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/isaacsim/package.zsh'
+[1.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim/share/colcon-core/packages/isaacsim)
+[1.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_tutorials)
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials' for CMake module files
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'cmake_prefix_path')
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.sh'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/lib'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/bin'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/lib/pkgconfig/isaac_tutorials.pc'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/lib/python3.10/site-packages'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/bin'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/isaac_tutorials/package.zsh'
+[1.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials/share/colcon-core/packages/isaac_tutorials)
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message
+[1.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages
+[1.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message)
+[1.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message' for CMake module files
+[1.736s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message' for CMake config files
+[1.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'cmake_prefix_path')
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.ps1'
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.dsv'
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.sh'
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib'
+[1.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'ld_library_path_lib')
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.ps1'
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.sh'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/bin'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/pkgconfig/custom_message.pc'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/python3.10/site-packages'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/bin'
+[1.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.ps1'
+[1.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.dsv'
+[1.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.sh'
+[1.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.bash'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.zsh'
+[1.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/colcon-core/packages/custom_message)
+[1.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_ros2_messages)
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages' for CMake module files
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros2_messages
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages' for CMake config files
+[1.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros2_messages', 'cmake_prefix_path')
+[1.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/cmake_prefix_path.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/cmake_prefix_path.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/cmake_prefix_path.sh'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib'
+[1.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros2_messages', 'ld_library_path_lib')
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/ld_library_path_lib.ps1'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/ld_library_path_lib.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/ld_library_path_lib.sh'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/bin'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib/pkgconfig/isaac_ros2_messages.pc'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib/python3.10/site-packages'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/bin'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.sh'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.bash'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.zsh'
+[1.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/colcon-core/packages/isaac_ros2_messages)
+[1.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message)
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message' for CMake module files
+[1.862s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message' for CMake config files
+[1.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'cmake_prefix_path')
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.ps1'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.dsv'
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/cmake_prefix_path.sh'
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib'
+[1.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'ld_library_path_lib')
+[1.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/hook/ld_library_path_lib.sh'
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/bin'
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/pkgconfig/custom_message.pc'
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/python3.10/site-packages'
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/bin'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.ps1'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.dsv'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.sh'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.bash'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.zsh'
+[1.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/colcon-core/packages/custom_message)
+[1.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp' with build type 'ament_cmake'
+[1.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp'
+[1.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[1.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_ros2_messages)
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages' for CMake module files
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages' for CMake config files
+[1.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros2_messages', 'cmake_prefix_path')
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/cmake_prefix_path.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/cmake_prefix_path.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/cmake_prefix_path.sh'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib'
+[1.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros2_messages', 'ld_library_path_lib')
+[1.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/ld_library_path_lib.ps1'
+[1.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/ld_library_path_lib.dsv'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/hook/ld_library_path_lib.sh'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/bin'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib/pkgconfig/isaac_ros2_messages.pc'
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib/python3.10/site-packages'
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/bin'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.dsv'
+[1.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.sh'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.bash'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/isaac_ros2_messages/package.zsh'
+[1.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/share/colcon-core/packages/isaac_ros2_messages)
+[2.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetbot_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log --single-version-externally-managed install_data
+[2.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_py': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/install.log --single-version-externally-managed install_data
+[2.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[2.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cube_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log --single-version-externally-managed install_data
+[2.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Jettbot_position build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/install.log --single-version-externally-managed install_data
+[2.383s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller' for CMake module files
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetbot_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log --single-version-externally-managed install_data
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller' for CMake config files
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib'
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/bin'
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/pkgconfig/jetbot_controller.pc'
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages'
+[2.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetbot_controller', 'pythonpath')
+[2.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/hook/pythonpath.ps1'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/hook/pythonpath.dsv'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/hook/pythonpath.sh'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/bin'
+[2.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetbot_controller)
+[2.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/package.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/package.dsv'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/package.sh'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/package.bash'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/jetbot_controller/package.zsh'
+[2.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/share/colcon-core/packages/jetbot_controller)
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal' for CMake module files
+[2.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal' for CMake config files
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/lib'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/bin'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/lib/pkgconfig/isaac_ros_navigation_goal.pc'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages'
+[2.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros_navigation_goal', 'pythonpath')
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/pythonpath.ps1'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/pythonpath.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/pythonpath.sh'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/bin'
+[2.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_ros_navigation_goal)
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.ps1'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.sh'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.bash'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.zsh'
+[2.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal/share/colcon-core/packages/isaac_ros_navigation_goal)
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package' for CMake module files
+[2.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_py' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/install.log --single-version-externally-managed install_data
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package' for CMake config files
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/bin'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/pkgconfig/my_ros2_package.pc'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/python3.10/site-packages'
+[2.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_package', 'pythonpath')
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/hook/pythonpath.ps1'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/hook/pythonpath.dsv'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/hook/pythonpath.sh'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/bin'
+[2.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_ros2_package)
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/package.ps1'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/package.dsv'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/package.sh'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/package.bash'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package/package.zsh'
+[2.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/colcon-core/packages/my_ros2_package)
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller' for CMake module files
+[2.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cube_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log --single-version-externally-managed install_data
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller' for CMake config files
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib'
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/bin'
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/pkgconfig/cube_controller.pc'
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages'
+[2.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('cube_controller', 'pythonpath')
+[2.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/hook/pythonpath.ps1'
+[2.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/hook/pythonpath.dsv'
+[2.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/hook/pythonpath.sh'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/bin'
+[2.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cube_controller)
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/package.ps1'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/package.dsv'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/package.sh'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/package.bash'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/cube_controller/package.zsh'
+[2.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/share/colcon-core/packages/cube_controller)
+[2.422s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position' for CMake module files
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Jettbot_position build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/install.log --single-version-externally-managed install_data
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position' for CMake config files
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/bin'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/pkgconfig/Jettbot_position.pc'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages'
+[2.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('Jettbot_position', 'pythonpath')
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/hook/pythonpath.ps1'
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/hook/pythonpath.dsv'
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/hook/pythonpath.sh'
+[2.425s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/bin'
+[2.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Jettbot_position)
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/package.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/package.dsv'
+[2.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/package.sh'
+[2.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/package.bash'
+[2.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/Jettbot_position/package.zsh'
+[2.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/share/colcon-core/packages/Jettbot_position)
+[16.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[16.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber
+[16.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pose_subscriber)
+[16.973s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber' for CMake module files
+[16.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber
+[16.974s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber' for CMake config files
+[16.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pose_subscriber', 'cmake_prefix_path')
+[16.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/hook/cmake_prefix_path.ps1'
+[16.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/hook/cmake_prefix_path.dsv'
+[16.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/hook/cmake_prefix_path.sh'
+[16.975s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib'
+[16.975s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/bin'
+[16.975s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib/pkgconfig/my_cpp_pose_subscriber.pc'
+[16.975s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib/python3.10/site-packages'
+[16.975s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/bin'
+[16.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.ps1'
+[16.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv'
+[16.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.sh'
+[16.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.bash'
+[16.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.zsh'
+[16.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/colcon-core/packages/my_cpp_pose_subscriber)
+[16.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pose_subscriber)
+[16.995s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber' for CMake module files
+[16.995s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber' for CMake config files
+[16.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pose_subscriber', 'cmake_prefix_path')
+[16.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/hook/cmake_prefix_path.ps1'
+[16.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/hook/cmake_prefix_path.dsv'
+[16.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/hook/cmake_prefix_path.sh'
+[16.996s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib'
+[16.996s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/bin'
+[16.996s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib/pkgconfig/my_cpp_pose_subscriber.pc'
+[16.996s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib/python3.10/site-packages'
+[16.997s] Level 1:colcon.colcon_core.environment:checking '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/bin'
+[16.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.ps1'
+[16.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv'
+[16.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.sh'
+[16.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.bash'
+[16.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.zsh'
+[16.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/colcon-core/packages/my_cpp_pose_subscriber)
+[16.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.999s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.003s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.003s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.003s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.012s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/local_setup.ps1'
+[17.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/_local_setup_util_ps1.py'
+[17.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/setup.ps1'
+[17.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/local_setup.sh'
+[17.015s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/_local_setup_util_sh.py'
+[17.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/setup.sh'
+[17.017s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/local_setup.bash'
+[17.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/setup.bash'
+[17.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/local_setup.zsh'
+[17.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/setup.zsh'

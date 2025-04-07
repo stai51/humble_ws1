@@ -1,0 +1,37 @@
+[1.459s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/error_subscriber': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/error_subscriber build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/install.log --single-version-externally-managed install_data
+[1.702s] running egg_info
+[1.702s] creating ../../build/error_subscriber/error_subscriber.egg-info
+[1.702s] writing ../../build/error_subscriber/error_subscriber.egg-info/PKG-INFO
+[1.703s] writing dependency_links to ../../build/error_subscriber/error_subscriber.egg-info/dependency_links.txt
+[1.703s] writing entry points to ../../build/error_subscriber/error_subscriber.egg-info/entry_points.txt
+[1.703s] writing requirements to ../../build/error_subscriber/error_subscriber.egg-info/requires.txt
+[1.703s] writing top-level names to ../../build/error_subscriber/error_subscriber.egg-info/top_level.txt
+[1.703s] writing manifest file '../../build/error_subscriber/error_subscriber.egg-info/SOURCES.txt'
+[1.705s] reading manifest file '../../build/error_subscriber/error_subscriber.egg-info/SOURCES.txt'
+[1.706s] writing manifest file '../../build/error_subscriber/error_subscriber.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.706s] running build_py
+[1.706s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build
+[1.706s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib
+[1.706s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber
+[1.706s] copying error_subscriber/__init__.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber
+[1.706s] copying error_subscriber/error_subscriber.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber
+[1.706s] running install
+[1.707s] running install_lib
+[1.708s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber
+[1.708s] copying /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber/__init__.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber
+[1.708s] copying /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build/lib/error_subscriber/error_subscriber.py -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber
+[1.709s] byte-compiling /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber/__init__.py to __init__.cpython-310.pyc
+[1.710s] byte-compiling /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber/error_subscriber.py to error_subscriber.cpython-310.pyc
+[1.710s] running install_data
+[1.710s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index
+[1.710s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index/resource_index
+[1.710s] creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index/resource_index/packages
+[1.710s] copying resource/error_subscriber -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/ament_index/resource_index/packages
+[1.710s] copying package.xml -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/share/error_subscriber
+[1.710s] running install_egg_info
+[1.712s] Copying ../../build/error_subscriber/error_subscriber.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages/error_subscriber-0.0.0-py3.10.egg-info
+[1.712s] running install_scripts
+[1.732s] Installing error_subscriber script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/error_subscriber
+[1.732s] writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/install.log'
+[1.768s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/error_subscriber' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/error_subscriber build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/error_subscriber/install.log --single-version-externally-managed install_data

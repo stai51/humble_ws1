@@ -1,0 +1,82 @@
+[0.007s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.161s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.161s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.258s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.269s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.279s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.293s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.294s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.294s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.381s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.428s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.428s] -- Configured cppcheck include dirs: 
+[0.428s] -- Configured cppcheck exclude dirs and/or files: 
+[0.428s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.429s] -- Added test 'lint_cmake' to check CMake code style
+[0.429s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.430s] -- Added test 'uncrustify' to check C / C++ code style
+[0.430s] -- Configured uncrustify additional arguments: 
+[0.430s] -- Added test 'xmllint' to check XML markup files
+[0.431s] -- Configuring done
+[0.439s] -- Generating done
+[0.440s] -- Build files have been written to: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber
+[0.457s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.469s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[0.607s] In file included from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3[m[K:
+[0.607s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.607s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.607s]       |  [01;35m[K^~~~~~~[m[K
+[2.088s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::topic1_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.088s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:21:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1_[m[K’ was not declared in this scope
+[2.088s]    21 |      [01;31m[Kpose1_[m[K=*msg;
+[2.088s]       |      [01;31m[K^~~~~~[m[K
+[2.094s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:22:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1_received_[m[K’ was not declared in this scope
+[2.094s]    22 |      [01;31m[Kpose1_received_[m[K=true;
+[2.094s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.099s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:24:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2_received_[m[K’ was not declared in this scope
+[2.099s]    24 |      if(pose1_received_&& [01;31m[Kpose2_received_[m[K)
+[2.099s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.099s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:26:27:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst calc[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.099s]    26 |         [01;31m[Kcalculate_distance()[m[K;
+[2.099s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[2.099s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:40:10:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid calc::calculate_distance()[m[K’
+[2.100s]    40 |     void [01;36m[Kcalculate_distance[m[K()
+[2.100s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.103s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::topic2_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.103s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:32:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2_[m[K’ was not declared in this scope
+[2.103s]    32 |      [01;31m[Kpose2_[m[K=*msg;
+[2.103s]       |      [01;31m[K^~~~~~[m[K
+[2.108s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:33:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2_received_[m[K’ was not declared in this scope
+[2.108s]    33 |      [01;31m[Kpose2_received_[m[K=true;
+[2.108s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.114s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1_received_[m[K’ was not declared in this scope
+[2.114s]    35 |      if([01;31m[Kpose1_received_[m[K&& pose2_received_)
+[2.114s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.114s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:37:27:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst calc[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.114s]    37 |         [01;31m[Kcalculate_distance()[m[K;
+[2.114s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[2.114s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:40:10:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid calc::calculate_distance()[m[K’
+[2.114s]    40 |     void [01;36m[Kcalculate_distance[m[K()
+[2.114s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.117s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::calculate_distance()[m[K’:
+[2.117s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:42:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+[2.117s]    42 |         tf2::Vector3 a([01;31m[Kpose1[m[K.position.x,pose1.position.y,pose1.position.z)
+[2.117s]       |                        [01;31m[K^~~~~[m[K
+[2.118s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kv1[m[K’
+[2.118s]    43 |         [01;31m[Kv1[m[K=(pose2.position.x,pose2.position.y,pose2.position.z)
+[2.118s]       |         [01;31m[K^~[m[K
+[2.118s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:42:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.118s]    42 |         tf2::Vector3 [01;35m[Ka[m[K(pose1.position.x,pose1.position.y,pose1.position.z)
+[2.118s]       |                      [01;35m[K^[m[K
+[3.678s] gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+[3.678s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+[3.678s] gmake: *** [Makefile:146: all] Error 2
+[3.679s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16

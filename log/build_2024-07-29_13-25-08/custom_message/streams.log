@@ -1,0 +1,23 @@
+[0.341s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16
+[0.530s] [  3%] Built target custom_message__cpp
+[0.530s] [ 12%] Built target custom_message__rosidl_generator_c
+[0.530s] [ 12%] Built target ament_cmake_python_copy_custom_message
+[0.530s] [ 22%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[0.530s] [ 32%] Built target custom_message__rosidl_typesupport_c
+[0.530s] [ 45%] Built target custom_message__rosidl_typesupport_introspection_c
+[0.530s] [ 54%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[0.530s] [ 61%] Built target custom_message__rosidl_typesupport_cpp
+[0.530s] [ 70%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[0.530s] [ 70%] Built target custom_message
+[0.530s] [ 74%] Built target custom_message__py
+[0.530s] [ 80%] Built target custom_message__rosidl_generator_py
+[0.530s] [ 87%] Built target custom_message__rosidl_typesupport_introspection_c__pyext
+[0.530s] [ 93%] Built target custom_message__rosidl_typesupport_c__pyext
+[0.530s] [100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext
+[0.545s] running egg_info
+[0.546s] writing custom_message.egg-info/PKG-INFO
+[0.546s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[0.547s] writing top-level names to custom_message.egg-info/top_level.txt
+[0.549s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.549s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.570s] [100%] Built target ament_cmake_python_build_custom_message_egg

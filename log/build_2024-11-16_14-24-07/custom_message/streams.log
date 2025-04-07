@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16
+[0.445s] [  1%] Built target custom_message__cpp
+[0.445s] [ 12%] Built target custom_message__rosidl_generator_c
+[0.445s] [ 12%] Built target ament_cmake_python_symlink_custom_message
+[0.445s] [ 23%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[0.445s] [ 34%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[0.445s] [ 45%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[0.445s] [ 56%] Built target custom_message__rosidl_typesupport_introspection_c
+[0.446s] [ 67%] Built target custom_message__rosidl_typesupport_cpp
+[0.446s] [ 78%] Built target custom_message__rosidl_typesupport_c
+[0.446s] [ 78%] Built target custom_message
+[0.446s] [ 80%] Built target custom_message__py
+[0.446s] [ 89%] Built target custom_message__rosidl_generator_py
+[0.446s] [ 92%] Built target custom_message__rosidl_typesupport_c__pyext
+[0.446s] [ 96%] Built target custom_message__rosidl_typesupport_introspection_c__pyext
+[0.446s] [100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext
+[0.446s] running egg_info
+[0.446s] writing custom_message.egg-info/PKG-INFO
+[0.446s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[0.446s] writing top-level names to custom_message.egg-info/top_level.txt
+[0.446s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.446s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[0.446s] [100%] Built target ament_cmake_python_build_custom_message_egg
+[0.638s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16

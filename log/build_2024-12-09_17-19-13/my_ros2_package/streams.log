@@ -1,0 +1,21 @@
+[1.661s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/build --no-deps symlink_data --force
+[1.981s] running develop
+[1.981s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.982s]   warnings.warn(
+[2.171s] running egg_info
+[2.171s] writing my_ros2_package.egg-info/PKG-INFO
+[2.171s] writing dependency_links to my_ros2_package.egg-info/dependency_links.txt
+[2.172s] writing entry points to my_ros2_package.egg-info/entry_points.txt
+[2.172s] writing requirements to my_ros2_package.egg-info/requires.txt
+[2.172s] writing top-level names to my_ros2_package.egg-info/top_level.txt
+[2.174s] reading manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+[2.175s] writing manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+[2.227s] running build_ext
+[2.227s] Creating /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/python3.10/site-packages/my-ros2-package.egg-link (link to .)
+[2.228s] Installing listener script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/my_ros2_package
+[2.229s] 
+[2.229s] Installed /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package
+[2.229s] running symlink_data
+[2.230s] symbolically linking /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/resource/my_ros2_package -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/ament_index/resource_index/packages
+[2.230s] symbolically linking /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/package.xml -> /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/share/my_ros2_package
+[2.274s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_ros2_package/build --no-deps symlink_data --force

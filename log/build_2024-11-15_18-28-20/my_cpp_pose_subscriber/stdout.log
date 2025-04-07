@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[ 50%] [32m[1mLinking CXX executable pose_subscriber[0m
+[100%] Built target pose_subscriber
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/ament_index/resource_index/package_run_dependencies/my_cpp_pose_subscriber
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/ament_index/resource_index/parent_prefix_path/my_cpp_pose_subscriber
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.sh
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.sh
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.dsv
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.bash
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.sh
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.zsh
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.dsv
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/ament_index/resource_index/packages/my_cpp_pose_subscriber
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig.cmake
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig-version.cmake
+-- Symlinking: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.xml

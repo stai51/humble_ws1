@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[2.295s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles(int)[m[K’:
+[2.295s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:137:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.295s]   137 |         if ([01;35m[Kgrid_size * grid_size * grid_size < particle_count_[m[K) {
+[2.295s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.295s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:154:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.295s]   154 |             for (int i = 0; i < grid_size && [01;35m[Kindex < particle_count_[m[K; ++i) {
+[2.295s]       |                                              [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.295s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:155:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.295s]   155 |                 for (int j = 0; j < grid_size && [01;35m[Kindex < particle_count_[m[K; ++j) {
+[2.295s]       |                                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.295s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:156:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.295s]   156 |                     for (int k = 0; k < grid_size && [01;35m[Kindex < particle_count_[m[K; ++k) {
+[2.295s]       |                                                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.313s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::estimate_position(size_t)[m[K’:
+[2.313s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:711:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.313s]   711 |         if ([01;35m[Kmarker_history_.size() > max_markers_[m[K) {
+[2.313s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.314s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::resample_particles(size_t)[m[K’:
+[2.314s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:725:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Knew_particles[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.314s]   725 |         std::vector<Particle> [01;35m[Knew_particles[m[K[particle_count_];
+[2.314s]       |                               [01;35m[K^~~~~~~~~~~~~[m[K
+[2.314s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:754:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::vector<calc::Particle> >, std::vector<calc::Particle> >::value_type[m[K’ {aka ‘[01m[Kstd::vector<calc::Particle>[m[K’} and ‘[01m[Kstd::vector<calc::Particle> [((calc*)this)->calc::particle_count_][m[K’)
+[2.314s]   754 |         particle_groups_[anchor_idx] = [01;31m[Knew_particles[m[K;
+[2.314s]       |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.315s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[2.315s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.315s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.315s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.315s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.315s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = calc::Particle; _Alloc = std::allocator<calc::Particle>][m[K’
+[2.315s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[2.315s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.315s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<calc::Particle> [((calc*)this)->calc::particle_count_][m[K’ to ‘[01m[Kconst std::vector<calc::Particle>&[m[K’
+[2.315s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[2.315s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.315s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[2.315s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.315s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.315s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.316s]                  from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:1[m[K:
+[2.316s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = calc::Particle; _Alloc = std::allocator<calc::Particle>][m[K’
+[2.316s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.316s]       |       [01;36m[K^~~~~~~~[m[K
+[2.316s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<calc::Particle> [((calc*)this)->calc::particle_count_][m[K’ to ‘[01m[Kstd::vector<calc::Particle>&&[m[K’
+[2.316s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.316s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[2.316s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = calc::Particle; _Alloc = std::allocator<calc::Particle>][m[K’
+[2.316s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[2.316s]       |       [01;36m[K^~~~~~~~[m[K
+[2.316s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<calc::Particle> [((calc*)this)->calc::particle_count_][m[K’ to ‘[01m[Kstd::initializer_list<calc::Particle>[m[K’
+[2.316s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[2.316s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.320s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:756:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_idx[m[K’ was not declared in this scope
+[2.320s]   756 |             particle_groups_[[01;31m[Kgroup_idx[m[K][k].weight = 1.0 / particle_count_; // 初期重みを均等に設定
+[2.320s]       |                              [01;31m[K^~~~~~~~~[m[K
+[2.321s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_robot_marker()[m[K’:
+[2.321s] [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:798:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.321s]   798 |         if ([01;35m[Krobot_marker_history_.size() > robot_max_markers_[m[K) {
+[2.322s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[5.992s] gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
+[5.992s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
+[5.992s] gmake: *** [Makefile:146: all] Error 2
+[5.994s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber' returned '2': CMAKE_PREFIX_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaacsim:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_tutorials:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/carter_navigation:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros2_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/my_cpp_pose_subscriber -- -j16 -l16

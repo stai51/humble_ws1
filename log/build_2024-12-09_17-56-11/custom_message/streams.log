@@ -1,0 +1,314 @@
+[0.032s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter:/opt/ros/humble /usr/bin/cmake /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message
+[1.076s] -- The C compiler identification is GNU 12.3.0
+[1.076s] -- The CXX compiler identification is GNU 11.4.0
+[1.077s] -- Detecting C compiler ABI info
+[1.077s] -- Detecting C compiler ABI info - done
+[1.078s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.078s] -- Detecting C compile features
+[1.078s] -- Detecting C compile features - done
+[1.078s] -- Detecting CXX compiler ABI info
+[1.078s] -- Detecting CXX compiler ABI info - done
+[1.078s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.078s] -- Detecting CXX compile features
+[1.079s] -- Detecting CXX compile features - done
+[1.079s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.080s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.080s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.080s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.080s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.080s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.081s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.081s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.081s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.777s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.779s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.807s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.807s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.807s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.807s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.831s] -- Found PythonExtra: .so  
+[1.907s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.932s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.933s] -- Added test 'lint_cmake' to check CMake code style
+[1.934s] -- Added test 'xmllint' to check XML markup files
+[1.937s] -- Configuring done
+[1.975s] -- Generating done
+[1.977s] -- Build files have been written to: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message
+[1.987s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter:/opt/ros/humble /usr/bin/cmake /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message
+[1.988s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16
+[2.023s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.032s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.040s] [  3%] Built target ament_cmake_python_copy_custom_message
+[2.299s] running egg_info
+[2.299s] creating custom_message.egg-info
+[2.300s] writing custom_message.egg-info/PKG-INFO
+[2.300s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[2.300s] writing top-level names to custom_message.egg-info/top_level.txt
+[2.300s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[2.302s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[2.303s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[2.331s] [  3%] Built target ament_cmake_python_build_custom_message_egg
+[2.408s] [  3%] Built target custom_message__cpp
+[2.421s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.421s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.422s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.473s] [ 12%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/pose_stamped__functions.c.o[0m
+[2.473s] [ 12%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/string__functions.c.o[0m
+[2.473s] [ 16%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/sample_msg__functions.c.o[0m
+[2.473s] [ 16%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/imu_msg__functions.c.o[0m
+[2.557s] [ 18%] [32m[1mLinking C shared library libcustom_message__rosidl_generator_c.so[0m
+[2.601s] [ 18%] Built target custom_message__rosidl_generator_c
+[2.615s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.615s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.615s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.799s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/pose_stamped__type_support.cpp.o[0m
+[2.799s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/imu_msg__type_support.cpp.o[0m
+[2.799s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/sample_msg__type_support.cpp.o[0m
+[2.799s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/string__type_support.cpp.o[0m
+[2.930s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/imu_msg__type_support.cpp.o[0m
+[2.930s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/pose_stamped__type_support.cpp.o[0m
+[2.930s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/sample_msg__type_support.cpp.o[0m
+[2.931s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/string__type_support.cpp.o[0m
+[2.946s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o[0m
+[2.960s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/sample_msg__type_support.cpp.o[0m
+[2.962s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/imu_msg__type_support.cpp.o[0m
+[2.963s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/string__type_support.cpp.o[0m
+[3.089s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/sample_msg__type_support.cpp.o[0m
+[3.095s] [ 49%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/pose_stamped__type_support.cpp.o[0m
+[3.175s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/imu_msg__type_support.cpp.o[0m
+[3.231s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/string__type_support.cpp.o[0m
+[3.270s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/sample_msg__type_support_c.cpp.o[0m
+[3.275s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/pose_stamped__type_support_c.cpp.o[0m
+[3.302s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/imu_msg__type_support_c.cpp.o[0m
+[3.303s] [ 60%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_c.so[0m
+[3.312s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/string__type_support_c.cpp.o[0m
+[3.391s] [ 63%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/sample_msg__type_support.c.o[0m
+[3.394s] [ 65%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/pose_stamped__type_support.c.o[0m
+[3.420s] [ 65%] Built target custom_message__rosidl_typesupport_c
+[3.448s] [ 67%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_cpp.so[0m
+[3.466s] [ 69%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/imu_msg__type_support.c.o[0m
+[3.512s] [ 70%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/string__type_support.c.o[0m
+[3.595s] [ 70%] Built target custom_message__rosidl_typesupport_cpp
+[3.598s] [ 72%] [32m[1mLinking C shared library libcustom_message__rosidl_typesupport_introspection_c.so[0m
+[3.696s] [ 72%] Built target custom_message__rosidl_typesupport_introspection_c
+[3.776s] [ 74%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_introspection_cpp.so[0m
+[3.805s] [ 76%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.878s] [ 76%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[3.918s] [ 76%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[3.987s] [ 78%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_c.so[0m
+[4.081s] [ 78%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[4.108s] [ 78%] Built target custom_message
+[4.137s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.092s] [ 80%] Built target custom_message__py
+[5.147s] [ 83%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_py.dir/rosidl_generator_py/custom_message/msg/_sample_msg_s.c.o[0m
+[5.147s] [ 81%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_py.dir/rosidl_generator_py/custom_message/msg/_pose_stamped_s.c.o[0m
+[5.147s] [ 85%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_py.dir/rosidl_generator_py/custom_message/msg/_imu_msg_s.c.o[0m
+[5.152s] [ 87%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_py.dir/rosidl_generator_py/custom_message/msg/_string_s.c.o[0m
+[5.546s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/libcustom_message__rosidl_generator_py.so[0m
+[5.596s] [ 89%] Built target custom_message__rosidl_generator_py
+[5.625s] [ 90%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c.o[0m
+[5.625s] [ 92%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.626s] [ 94%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.790s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.793s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.800s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.831s] [100%] Built target custom_message__rosidl_typesupport_introspection_c__pyext
+[5.831s] [100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext
+[5.839s] [100%] Built target custom_message__rosidl_typesupport_c__pyext
+[5.852s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message -- -j16 -l16
+[5.951s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message
+[5.958s] -- Install configuration: ""
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/string.h
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__struct.h
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__type_support.h
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__functions.h
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__type_support.h
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__type_support.h
+[5.958s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__functions.c
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__functions.c
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__functions.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__functions.c
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__functions.c
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__struct.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__struct.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__struct.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__type_support.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__functions.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__functions.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/sample_msg.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_c__visibility_control.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/imu_msg.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/pose_stamped.h
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/library_path.sh
+[5.959s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/library_path.dsv
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_generator_c.so
+[5.960s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_generator_c.so" to ""
+[5.960s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message
+[5.960s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg
+[5.960s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__rosidl_typesupport_fastrtps_c.h
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_fastrtps_c.h
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__rosidl_typesupport_fastrtps_c.h
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.960s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so
+[5.960s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so" to ""
+[5.961s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message
+[5.961s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg
+[5.961s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__builder.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__traits.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__struct.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__struct.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__builder.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__traits.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__struct.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__builder.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__traits.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__traits.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__builder.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__struct.hpp
+[5.961s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/imu_msg.hpp
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/string.hpp
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/sample_msg.hpp
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/pose_stamped.hpp
+[5.962s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message
+[5.962s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg
+[5.962s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/dds_fastrtps
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__rosidl_typesupport_fastrtps_cpp.hpp
+[5.962s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so
+[5.963s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.963s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message
+[5.963s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg
+[5.963s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__type_support.c
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__type_support.c
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__rosidl_typesupport_introspection_c.h
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__type_support.c
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__rosidl_typesupport_introspection_c.h
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_c.h
+[5.963s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__type_support.c
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so
+[5.964s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so" to ""
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so
+[5.964s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so" to ""
+[5.964s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message
+[5.964s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg
+[5.964s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__type_support.cpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__type_support.cpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__type_support.cpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/imu_msg__type_support.cpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.964s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/include/custom_message/custom_message/msg/detail/sample_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so
+[5.965s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so" to ""
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so
+[5.965s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so" to ""
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/pythonpath.sh
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/pythonpath.dsv
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/PKG-INFO
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/top_level.txt
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message
+[5.965s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_sample_msg_s.c
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_imu_msg.py
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_pose_stamped_s.c
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_string.py
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_pose_stamped.py
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py
+[5.966s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_sample_msg.py
+[5.967s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_string_s.c
+[5.967s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_imu_msg_s.c
+[5.967s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.967s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.967s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/libcustom_message__rosidl_generator_py.so
+[5.999s] Listing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message'...
+[5.999s] Compiling '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py'...
+[5.999s] Listing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg'...
+[6.000s] Compiling '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py'...
+[6.000s] Compiling '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_imu_msg.py'...
+[6.000s] Compiling '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_pose_stamped.py'...
+[6.000s] Compiling '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_sample_msg.py'...
+[6.000s] Compiling '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_string.py'...
+[6.004s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.004s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.004s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.004s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.004s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.004s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.004s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_generator_py.so
+[6.005s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/lib/libcustom_message__rosidl_generator_py.so" to ""
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/PoseStamped.idl
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/SampleMsg.idl
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/ImuMsg.idl
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/String.idl
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/PoseStamped.msg
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/SampleMsg.msg
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/ImuMsg.msg
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/msg/String.msg
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message
+[6.005s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/ament_prefix_path.sh
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/path.sh
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/environment/path.dsv
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/local_setup.bash
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/local_setup.sh
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/local_setup.zsh
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/local_setup.dsv
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.dsv
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/ament_index/resource_index/packages/custom_message
+[6.006s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport-noconfig.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cppExport.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake
+[6.007s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport-noconfig.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake
+[6.008s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.009s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.009s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake
+[6.009s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake
+[6.009s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/custom_message/share/custom_message/package.xml
+[6.011s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_ros2_package:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/isaac_ros_navigation_goal:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/error_plotter:/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/custom_message
