@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
-[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcustom_message/msg/position.hpp: No such file or directory
-    3 | #include [01;31m[K"custom_message/msg/position.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/pose_subscriber.dir/build.make:76: CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_subscriber.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

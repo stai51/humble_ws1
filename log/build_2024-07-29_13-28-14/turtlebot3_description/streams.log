@@ -1,2 +1,0 @@
-[0.030s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/turtlebot3_description -- -j16 -l16
-[0.547s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/turtlebot3_description -- -j16 -l16

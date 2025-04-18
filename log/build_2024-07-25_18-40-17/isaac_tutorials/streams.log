@@ -1,6 +1,0 @@
-[0.223s] Invoking command in '/home/robotdeveloper02/humble_ws/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/humble_ws/build/isaac_tutorials -- -j16 -l16
-[0.229s] [0mCMake Error: The current CMakeCache.txt directory /home/robotdeveloper02/humble_ws/build/isaac_tutorials/CMakeCache.txt is different than the directory /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/isaac_tutorials where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.234s] [0mCMake Error: The source directory "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_tutorials" does not exist.
-[0.235s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.235s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.237s] Invoked command in '/home/robotdeveloper02/humble_ws/build/isaac_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/humble_ws/build/isaac_tutorials -- -j16 -l16

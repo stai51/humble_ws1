@@ -581,7 +581,7 @@ class calc:public rclcpp::Node
             msg.data = timer;
             time_publisher_->publish(msg);
             RCLCPP_INFO(this->get_logger(),"Time is %.d",timer);
-            if (timer == 4000) {
+            if (timer == 6300) {
                 for (size_t i = 0; i < 5; ++i) {
                     anchor_positions_at_6300[i] = Anchor_positions[i];  // 位置情報を保存
                     available_anchor_at_6300[i] = available_anchor[i];  // available_anchorも保存
@@ -631,7 +631,7 @@ class calc:public rclcpp::Node
                 for (auto &p : particle_groups_[anchor_idx]) {
                     double likelihood = 1;
                     // ロボットの位置を使用
-                    if(timer<4000){
+                    if(timer<6300){
                         for (size_t i = 0; i < 5; ++i) {
                             double expected_distance = tf2::tf2Distance(p.position, Robot_anchor_positions[i]);
                             double actual_distance = tf2::tf2Distance(Anchor_positions[anchor_idx],Robot_anchor_positions[i]);
@@ -677,7 +677,7 @@ class calc:public rclcpp::Node
                             p.weight *= 0.5;
                         }
                     }//
-                    if(timer>1&&timer<=4000&&gizi==1&&anchor_idx==4){//移動前のタグ5のみ推定
+                    if(timer>1&&timer<=6300&&gizi==1&&anchor_idx==4){//移動前のタグ5のみ推定
                         // 推定済みかつ動いていないアンカーを追加で使用
                         for (size_t i = 0; i < 5; ++i) {
                             if (available_anchor[i] == 1 && anchor_idx!=i) {  // 利用可能なアンカーのみを使用
@@ -698,7 +698,7 @@ class calc:public rclcpp::Node
                             p.weight *= 0.5;
                         }
                     }
-                    if(timer>4000&&gizi==1&&anchor_idx==4){//移動後のタグ5のみ推定
+                    if(timer>6300&&gizi==1&&anchor_idx==4){//移動後のタグ5のみ推定
                         // 推定済みかつ動いていないアンカーを追加で使用
                         for (size_t i = 0; i < 5; ++i) {
                             if ( anchor_idx!=i&&available_anchor_at_6300[i] == 1) {  // 利用可能なアンカーのみを使用
@@ -741,10 +741,10 @@ class calc:public rclcpp::Node
                     resample_particles(anchor_idx);
                     
                 }
-                if(timer<4000){
+                if(timer<6300){
                     publish_particle_markers(anchor_idx);
                 }
-                if(timer>=4000&&anchor_idx==4){
+                if(timer>=6300&&anchor_idx==4){
                     publish_particle_markers(anchor_idx);
                 }
             }
@@ -853,7 +853,7 @@ class calc:public rclcpp::Node
         RCLCPP_INFO(this->get_logger(),"Total Error Past=%.3f",previous_errors_[anchor_idx]);
                 // 誤差をパブリッシュ
         std_msgs::msg::Float64 error_msg;
-        if(timer>=4000&&anchor_idx<4){
+        if(timer>=6300&&anchor_idx<4){
             total_error=previous_errors_[anchor_idx];
         }
         RCLCPP_INFO(this->get_logger(),
@@ -912,7 +912,7 @@ class calc:public rclcpp::Node
         marker_msg.color.r = 0.0;  // 赤色
         marker_msg.color.g = 0.0;
         marker_msg.color.b = 1.0;
-        if(timer>=4000&&anchor_idx<4){
+        if(timer>=6300&&anchor_idx<4){
             marker_msg.color.a = 0.0;  // 不透明度
         }else{
             marker_msg.color.a = 1.0;  // 不透明度
